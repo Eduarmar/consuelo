@@ -1,28 +1,74 @@
-
-
-h1,h2,h3,h4,h5,h6{
-  font-family: Lobster;
+@font-face {
+    font-family:"AnotherShabby";
+    src: url("../Anothershabby_trial.ttf") /* TTF file for CSS3 browsers */
 }
+
+
 
 p{
   font-family: Muli;
   font-size: 20px;
+  color: rgb(101, 55, 11);
+  font-weight: 400;
 }
 
 li{
   font-family: Muli;
   font-size: 20px;
+  color: rgb(101, 55, 11);
 }
 
 body{
   background-image: url(../images/ConsueloSpaLanding1.jpg);
+  background-size: cover;
 }
 
 .lipo{
-  margin-left: 300px;
+  margin-top: 100px;
 }
 
-.primero {
+.sep {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.btn{
+  background-color:rgb(0, 159, 152);
+
+}
+
+/*aweber*/
+#af-form-2064117333 .af-quirksMode{padding-right:13px;padding-left:13px;}
+#af-form-2064117333 .af-standards .af-element{padding-right:13px;padding-left:13px;}
+#af-form-2064117333 .bodyText p{margin:1em 0;}
+#af-form-2064117333 .buttonContainer input.submit{background-image:url("https://forms.aweber.com/images/auto/gradient/button/07c.png");background-position:top left;background-repeat:repeat-x;background-color:#0057ac;border:1px solid #0057ac;color:#FFFFFF;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Helvetica, sans-serif;}
+#af-form-2064117333 .buttonContainer input.submit{width:auto;}
+#af-form-2064117333 .buttonContainer{text-align:center;}
+#af-form-2064117333 body,#af-form-2064117333 dl,#af-form-2064117333 dt,#af-form-2064117333 dd,#af-form-2064117333 h1,#af-form-2064117333 h2,#af-form-2064117333 h3,#af-form-2064117333 h4,#af-form-2064117333 h5,#af-form-2064117333 h6,#af-form-2064117333 pre,#af-form-2064117333 code,#af-form-2064117333 fieldset,#af-form-2064117333 legend,#af-form-2064117333 blockquote,#af-form-2064117333 th,#af-form-2064117333 td{float:none;color:inherit;position:static;margin:0;padding:0;}
+#af-form-2064117333 button,#af-form-2064117333 input,#af-form-2064117333 submit,#af-form-2064117333 textarea,#af-form-2064117333 select,#af-form-2064117333 label,#af-form-2064117333 optgroup,#af-form-2064117333 option{float:none;position:static;margin:0;}
+#af-form-2064117333 div{margin:0;}
+#af-form-2064117333 fieldset{border:0;}
+#af-form-2064117333 form,#af-form-2064117333 textarea,.af-form-wrapper,.af-form-close-button,#af-form-2064117333 img{float:none;color:inherit;position:static;background-color:none;border:none;margin:0;padding:0;}
+#af-form-2064117333 input,#af-form-2064117333 button,#af-form-2064117333 textarea,#af-form-2064117333 select{font-size:100%;}
+#af-form-2064117333 p{color:inherit;}
+#af-form-2064117333 select,#af-form-2064117333 label,#af-form-2064117333 optgroup,#af-form-2064117333 option{padding:0;}
+#af-form-2064117333 table{border-collapse:collapse;border-spacing:0;}
+#af-form-2064117333 ul,#af-form-2064117333 ol{list-style-image:none;list-style-position:outside;list-style-type:disc;padding-left:40px;}
+#af-form-2064117333,#af-form-2064117333 .quirksMode{width:100%;max-width:379px;}
+#af-form-2064117333.af-quirksMode{overflow-x:hidden;}
+#af-form-2064117333{background-color:transparent;border-color:#CFCFCF;border-width:1px;border-style:none;}
+#af-form-2064117333{display:block;}
+#af-form-2064117333{overflow:hidden;}
+.af-body .af-textWrap{text-align:left;}
+.af-body input.image{border:none!important;}
+.af-body input.submit,.af-body input.image,.af-form .af-element input.button{float:none!important;}
+.af-body input.text{width:100%;float:none;padding:2px!important;}
+.af-body.af-standards input.submit{padding:4px 12px;}
+.af-clear{clear:both;}
+.af-element label{text-align:left;display:block;float:left;}
+.af-element{padding-bottom:5px;padding-top:5px;}
+.af-form-wrapper{text-indent:0;}
+.af-form{text-align:left;margin:auto;}
+.af-header{margin-bottom:0;margin-top:0;padding:10px;}
+.af-quirksMode .af-element{padding-left:0!important;padding-right:0!important;}
+.lbl-right .af-element label{text-align:right;}
