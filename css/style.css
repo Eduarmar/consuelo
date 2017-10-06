@@ -1,9 +1,28 @@
 
 
-/*h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
   font-family: Lobster;
 }
 
 p{
   font-family: Muli;
-}*/
+  font-size: 20px;
+}
+
+li{
+  font-family: Muli;
+  font-size: 20px;
+}
+
+body{
+  background-image: url(../images/ConsueloSpaLanding1.jpg);
+}
+
+.lipo{
+  margin-left: 300px;
+}
+
+.primero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
